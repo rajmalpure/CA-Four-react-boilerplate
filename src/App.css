@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.modeBtn{
+    padding: 9px 15px;
+    border-radius: 17px;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    font-weight:700;
+}
+
+.questionBox{
+    padding: 60px;
+    background-color: rgb(224, 195, 97);
+    margin: 10% 2.5%;
+    border-radius: 20px;
+}
+
+.option{
+    background-color: rgb(170, 148, 194);
+    padding: 10px 5px;
+    margin: 2%;
+    border-radius: 10px;
+}
+
+.highlightBox{
+    display: flex;
+    justify-content: space-around;
+}
+
+.highlight{
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 200;
+}
+
+.removehighlight{
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 200;
+}
