@@ -2,10 +2,14 @@ body{
     text-align: center;
 }
 
+.body{
+    height: 100vh;
+}
+
 .head{
     display: flex;
-    justify-content: space-between;
-    align-items: center;  
+    align-items: center;
+    justify-content: space-around;
 }
 
 .modeBtn{
@@ -15,35 +19,57 @@ body{
     background-color: black;
     color: white;
     font-weight:700;
+    border: 1px solid black;
 }
 
 .questionBox{
-    padding: 60px;
-    background-color: rgb(224, 195, 97);
-    margin: 10% 2.5%;
+    background-color: #FFC794;
+    padding: 50px;
+    margin:0% 23%;
     border-radius: 20px;
+
 }
 
 .option{
-    background-color: rgb(170, 148, 194);
-    padding: 10px 5px;
-    margin: 2%;
+    border: 0px;
+    margin: 10px;
+    padding: 7px 10px;
     border-radius: 10px;
+    background-color: aliceblue; 
+    cursor: pointer;
 }
+    .option:hover{
+        background-color: #a492eb;
+    
+        transition:450ms;
+    }
 
 .highlightBox{
     display: flex;
     justify-content: space-around;
 }
 
+.highlight,.removehighlight{
+    text-align: center;
+    padding: 7px 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 17px;
+    border: 1px solid black;
+}
+   
 .highlight{
-    padding: 10px;
-    border-radius: 20px;
-    font-weight: 200;
+    background-color: #FE4A4A;
+}
+.removehighlight{
+    background-color: #6078F1 ;
 }
 
-.removehighlight{
-    padding: 10px;
-    border-radius: 20px;
-    font-weight: 200;
+.restart{
+    background-color: #BB8DDF;
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 25px;
 }
+    
